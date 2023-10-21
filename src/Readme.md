@@ -12,28 +12,41 @@ Els tres tipus d'arbres estan implementats per separat en fitxers .hh i cada tip
 
 Per compilar els fitxers principals:
 
+
 $ make mainEstandar
+
 $ make mainRelaxed
+
 $ make mainSquarish
+
 
 (cada main, conte la creacio dels T arbres d'un tipus concret, amb la Q, la n, el contador de nodes visitats i fa cout de les dades)
 
+
 Tots de cop:
+
 $ make mains
 
 
 
 Per executar el fitxer mainEstandar.exe:
+
 $ ./mainEstandar.exe
+
   (i a més a més introduïr el numero de la dimensió k quan ha començat a executar-se)
+  
    
 Per guardar els resultats experimentals dels costos, redirigir la sortida a un fitxer de text:
+
 $ ./mainEstandar.exe > dadesK2.txt 
+
   (i introduïr la dimensio)
+  
 
 
 
 Un cop les dades ja estan recollides als fitxers dadesK...txt aquestes estan en format: (hi ha un total de 15 fitxers de dades ja recollides)
+
 
   Exemple de 3 línies del fitxer:
 
@@ -46,13 +59,19 @@ Un cop les dades ja estan recollides als fitxers dadesK...txt aquestes estan en 
 Per tractar i graficar les dades s'utilitzen 2 python scripts, cada un amb el seu executable ja generat independentment, perque es puguin 
 executar sense intpret i sense tenir instalades les dependencies de les llibreries.
 
+
 compararKs.py:
+
   Grafica del creixement del cost mitja respecte el nombre de nodes per cada k en els arbres estandar.
 
+
   Per executar:
+  
   $ ./compararKs.exe
 
+
 plotComplet.py:
+
 4 gràfiques en un requadre 2x2 com una matriu. A la posicio [0][0] hi ha la grafica Cn vs n amb la variancia dels arbres estandar.
 
 Al [0][1] la tranformacio logaritmica a les dades i la regressio lineal als tres tipus d'arbres.
