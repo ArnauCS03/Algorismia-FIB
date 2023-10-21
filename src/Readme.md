@@ -1,8 +1,8 @@
 Projecte d'Algorisimia: Consulta pel vei mes proper en arbres k-dimensionals aleatoris
-Creadors: Arnau Claramunt, Ferriol Falip, Giancarlo Morales, Marti Puerta
+Creadors: Arnau Claramunt, Ferriol Falip, Giancarlo Morales i Marti Puerta
 18/10/2023
 
-===============================================================================================================================================
+---
 
 Instruccions de com generar i executar els fitxers de la practica i una breu descripcio dels fitxers
 
@@ -27,7 +27,7 @@ Per executar el fitxer mainEstandar.exe:
 $ ./mainEstandar.exe
   (i a més a més introduïr el numero de la dimensió k quan ha començat a executar-se)
    
-    Per guardar els resultats experimentals dels costos, redirigir la sortida a un fitxer de text:
+Per guardar els resultats experimentals dels costos, redirigir la sortida a un fitxer de text:
 $ ./mainEstandar.exe > dadesK2.txt 
   (i introduïr la dimensio)
 
@@ -53,12 +53,15 @@ compararKs.py:
   $ ./compararKs.exe
 
 plotComplet.py:
-  4 gràfiques en un requadre 2x2 com una matriu. A la posicio [0][0] hi ha la grafica Cn vs n amb la variancia dels arbres estandar.
-  Al [0][1] la tranformacio logaritmica a les dades i la regressio lineal als tres tipus d'arbres.
-  Al [1][0] la regressio logaritmica als tres tipus d'arbres.
-  Al [1][0] dividir les dades per n^exponent per veure que la relacio es constant, nomes amb els arbres estandar.
+4 gràfiques en un requadre 2x2 com una matriu. A la posicio [0][0] hi ha la grafica Cn vs n amb la variancia dels arbres estandar.
 
-  Per executar:
-  $ ./plotComplet.exe
-  (un cop executat, esperar uns 10 segons a que carregui Matplotlib i introduir el numero de la dimensio de les dades que es vol mirar, 
-  apareix un missatge per pantalla demanant a l'usuari la k)
+Al [0][1] la tranformacio logaritmica a les dades i la regressio lineal als tres tipus d'arbres.
+
+Al [1][0] la regressio logaritmica als tres tipus d'arbres.
+
+Al [1][0] dividir les dades per n^exponent per veure que la relacio es constant, nomes amb els arbres estandar.
+
+Per executar:
+$ ./plotComplet.exe
+(un cop executat, esperar uns 10 segons a que carregui Matplotlib i introduir el numero de la dimensio de les dades que es vol mirar, 
+apareix un missatge per pantalla demanant a l'usuari la k)
