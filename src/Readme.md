@@ -17,15 +17,15 @@ $ make mainEstandar
 
 $ make mainRelaxed
 
-$ make mainSquarish \\
+$ make mainSquarish <br /><br />
 
 
-(cada main, conte la creacio dels T arbres d'un tipus concret, amb la Q, la n, el contador de nodes visitats i fa cout de les dades)
+(cada main, conte la creacio dels T arbres d'un tipus concret, amb la Q, la n, el contador de nodes visitats i fa cout de les dades) <br /><br />
 
 
 Tots de cop:
 
-$ make mains
+$ make mains <br /><br />
 
 
 
@@ -33,14 +33,14 @@ Per executar el fitxer mainEstandar.exe:
 
 $ ./mainEstandar.exe
 
-  (i a més a més introduïr el numero de la dimensió k quan ha començat a executar-se)
+  (i a més a més introduïr el numero de la dimensió k quan ha començat a executar-se) <br /><br />
   
    
 Per guardar els resultats experimentals dels costos, redirigir la sortida a un fitxer de text:
 
 $ ./mainEstandar.exe > dadesK2.txt 
 
-  (i introduïr la dimensio)
+  (i introduïr la dimensio) <br /><br />
   
 
 
@@ -54,20 +54,20 @@ Un cop les dades ja estan recollides als fitxers dadesK...txt aquestes estan en 
     21 17 .... 14   // (500 valors separats per espais, que son el cost mitjà obtingut de cada una de les 100 queries fetes en 5 arbres)
     18.985		      // (cost mitjà)
 
-
+<br /><br />
 
 Per tractar i graficar les dades s'utilitzen 2 python scripts, cada un amb el seu executable ja generat independentment, perque es puguin 
-executar sense intpret i sense tenir instalades les dependencies de les llibreries.
+executar sense intpret i sense tenir instalades les dependencies de les llibreries. <br /><br />
 
 
 compararKs.py:
 
-  Grafica del creixement del cost mitja respecte el nombre de nodes per cada k en els arbres estandar.
+  Grafica del creixement del cost mitja respecte el nombre de nodes per cada k en els arbres estandar. <br /><br />
 
 
   Per executar:
   
-  $ ./compararKs.exe
+  $ ./compararKs.exe <br /><br />
 
 
 plotComplet.py:
@@ -78,7 +78,7 @@ Al [0][1] la tranformacio logaritmica a les dades i la regressio lineal als tres
 
 Al [1][0] la regressio logaritmica als tres tipus d'arbres.
 
-Al [1][0] dividir les dades per n^exponent per veure que la relacio es constant, nomes amb els arbres estandar.
+Al [1][0] dividir les dades per n^exponent per veure que la relacio es constant, nomes amb els arbres estandar. <br /><br />
 
 Per executar:
 $ ./plotComplet.exe
