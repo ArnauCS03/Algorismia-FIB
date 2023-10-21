@@ -17,7 +17,7 @@ $ make mainEstandar
 
 $ make mainRelaxed
 
-$ make mainSquarish
+$ make mainSquarish \\
 
 
 (cada main, conte la creacio dels T arbres d'un tipus concret, amb la Q, la n, el contador de nodes visitats i fa cout de les dades)
