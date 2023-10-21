@@ -21,7 +21,7 @@ Algoritme de la cerca del veí més proper:
 
 ![ex_primerrecorregut](https://github.com/ArnauCS03/Algorismia-FIB/assets/95536223/3b1c0b54-748f-4a3a-a25c-ef8ac1440ba4)
 
-![ex_backtrack](https://github.com/ArnauCS03/Algorismia-FIB/assets/95536223/6f12b922-7efe-47d9-b1cb-be0e604eda97)
+![ex_backtrack](https://github.com/ArnauCS03/Algorismia-FIB/assets/95536223/6f12b922-7efe-47d9-b1cb-be0e604eda97) <br /><br />
 
 
 
