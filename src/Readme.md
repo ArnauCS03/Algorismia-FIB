@@ -7,7 +7,7 @@ Creadors: Arnau Claramunt, Ferriol Falip, Giancarlo Morales i Marti Puerta
 Instruccions de com generar i executar els fitxers de la practica i una breu descripcio dels fitxers
 
 
-Els tres tipus d'arbres estan implementats per separat en fitxers .hh i cada tipus d'arbre te el seu propi programa principal .cpp
+Els tres tipus d'arbres estan implementats per separat en fitxers .hh i cada tipus d'arbre te el seu propi programa principal .cpp \\
 
 
 Per compilar els fitxers principals:
