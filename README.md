@@ -2,7 +2,7 @@
 Projecte de l'assignatura d'algorismia de la FIB, Q1 2023-2024
 
 
-Títol del projecte: ## Consultes pel veí més proper en arbres k-dimensionals aleatoris
+Títol del projecte:  **Consultes pel veí més proper en arbres k-dimensionals aleatoris**
 
 Treball fet per: 
 Arnau Claramunt
@@ -11,6 +11,7 @@ Giancarlo Morales
 Marti Puerta
 
 ---
+
 
 A la carpeta DOC hi ha l'encunciat.
 A la carpeta src hi ha els codis. Al *Readme.md* d'alla esta explicat què conté cada fitxer i com s'executa. 
