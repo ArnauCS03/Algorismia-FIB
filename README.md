@@ -2,7 +2,7 @@
 Projecte de l'assignatura d'algorismia de la FIB, Q1 2023-2024
 
 
-Títol del projecte:  **Consultes pel veí més proper en arbres k-dimensionals aleatoris**
+Títol del projecte:  **Consultes pel veí més proper en arbres k-dimensionals aleatoris** <br /><br />
 
 Treball fet per: 
 Arnau Claramunt, Ferriol Falip, Giancarlo Morales i Marti Puerta
@@ -10,8 +10,8 @@ Arnau Claramunt, Ferriol Falip, Giancarlo Morales i Marti Puerta
 ---
 
 
-A la carpeta DOC hi ha l'encunciat.
-A la carpeta src hi ha els codis. Al *Readme.md* d'alla esta explicat què conté cada fitxer i com s'executa. 
+A la carpeta ```DOC``` hi ha l'encunciat de la pràctiaca i l'informe que vam fer.
+A la carpeta ```src``` hi ha els codis. Al *Readme.md* d'alla esta explicat què conté cada fitxer i com s'executa. 
 Principalment hi ha codis *main.cpp* per crear els arbres, la implementació dels arbres en fitxers .hh i per fer gràfiques i tractar les dades recollides (dadesK_.txt) amb python scripts.
 
 ---
