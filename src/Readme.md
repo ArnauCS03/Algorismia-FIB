@@ -1,16 +1,18 @@
 Projecte d'Algorisimia: Consulta pel vei mes proper en arbres k-dimensionals aleatoris
+
 Creadors: Arnau Claramunt, Ferriol Falip, Giancarlo Morales i Marti Puerta
+
 18/10/2023
 
 ---
 
-Instruccions de com generar i executar els fitxers de la practica i una breu descripcio dels fitxers
+Instruccions de com generar i executar els fitxers de la practica i una breu descripcio dels fitxers <br /><br />
 
 
 Els tres tipus d'arbres estan implementats per separat en fitxers .hh i cada tipus d'arbre te el seu propi programa principal .cpp <br /><br />
 
 
-Per compilar els fitxers principals:
+Per compilar els fitxers principals: <br /><br />
 
 
 $ make mainEstandar
@@ -81,6 +83,8 @@ Al [1][0] la regressio logaritmica als tres tipus d'arbres.
 Al [1][0] dividir les dades per n^exponent per veure que la relacio es constant, nomes amb els arbres estandar. <br /><br />
 
 Per executar:
+
 $ ./plotComplet.exe
+
 (un cop executat, esperar uns 10 segons a que carregui Matplotlib i introduir el numero de la dimensio de les dades que es vol mirar, 
 apareix un missatge per pantalla demanant a l'usuari la k)
